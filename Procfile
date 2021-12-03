@@ -1,1 +1,1 @@
-web: python3 library.py:gunicorn library:app –log-file -
+web: python3 library.py
