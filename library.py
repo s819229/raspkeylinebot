@@ -1,5 +1,5 @@
 from flask import Flask
-app = Flask(raspkeylinebot)
+app = Flask(__name__)
 from mydb import get_book
 from flask import Flask, request, abort
 from linebot import  LineBotApi, WebhookHandler
